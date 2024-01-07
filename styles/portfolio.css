@@ -190,6 +190,10 @@ hr {
   font-weight: 600;
 }
 
+.download-cv {
+  text-align: center;
+}
+
 /* footer related styles */
 footer {
   display: flex;
@@ -200,4 +204,19 @@ footer {
 
 .footer-column {
   width: 50%;
+}
+
+.contact input[type='text'],
+.contact input[type='email'],
+textarea {
+  display: block;
+  margin-bottom: 25px;
+  padding: 18px 30px;
+  color: #757575;
+  font-size: 16px;
+  font-weight: 400;
+  border: 0;
+  border-radius: 5px;
+  background: #fff;
+  width: 100%;
 }
